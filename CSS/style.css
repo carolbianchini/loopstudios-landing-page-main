@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     max-width: 1500px;
-    min-width: 1350px;
+    min-width: 375px;
 }
 
 main{
@@ -179,7 +179,7 @@ footer {
     margin: 0 auto;
     background-color: black;
     color: white;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
 }
@@ -233,4 +233,196 @@ footer {
     font-family: 'Overpass', sans-serif;
     font-size: 10px;
     color: darkgray;
+}
+
+.box-images-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        width: auto;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+    }
+    
+    header {
+        height: 80vh;
+        background-image: url(../images/mobile/image-hero.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: auto;
+        flex-direction: column; 
+        justify-content: center;
+    }
+
+    .first-title {
+        font-size: 36px;
+        text-align: center;
+        width: auto;
+        position: relative;
+        right: 5px;
+        top: 80px;
+    }
+
+    main {
+        margin: 0 25px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        width: auto;
+    }
+    
+    .image-interactive {
+        width: 100%;
+        align-items: center;
+        flex-direction: column; 
+        justify-content: center;
+        position: relative;
+        top: 200px;
+        left: auto;
+        margin: uto;
+    }
+    
+    .box-leader {
+        flex-direction: column; 
+        justify-content: center;
+        width: 100%;
+        padding: 10px 25px 5px 25px;
+        position: relative;
+        left: -30px;
+        top: 200px;
+        text-align: left;
+        margin: auto;
+    }
+
+    
+    .main-box-creation {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        top: 220px;
+        text-align: center;
+    }
+
+    .main-box-creation button{
+        display: none;
+    }
+    
+    .box-images {
+        display: none;
+    }
+
+
+    .box-images-mobile {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        width: auto;
+        margin: 0 auto;
+        position: relative;
+        top: 250px;
+    }
+
+    .img-title {
+        display: none;
+    }
+
+
+
+    .box-images-mobile img {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .main-box-creation {
+        width: 100%;
+        margin: auto;
+    }
+
+    .box-images-mobile button{
+        background-color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: solid black 0.5px;
+        cursor: pointer;
+        display: flex;
+        margin: 30px 150px;
+    }
+
+    footer {
+        height: 250px;
+        margin: 155px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 290px;
+    }
+
+    .redes ul {
+        margin: auto;
+    }
+
+    .redes li {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 5px 5px;
+        align-items: center;
+        position: relative;
+        right: 130px;
+    }
+
+    .title-footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       align-items: center;
+       position: relative;
+       bottom: 40px;
+       left: 2px;
+       margin: 0;
+    }
+    
+    .footer-menu ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .rights {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 50px;
+        left: 10px;
+        font-family: 'Overpass', sans-serif;
+        font-size: 10px;
+        color: darkgray;
+    }
 }
