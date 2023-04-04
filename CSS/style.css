@@ -239,6 +239,14 @@ footer {
     display: none;
 }
 
+.logo{
+    display: none;
+}
+
+.nav-list {
+    display: none;
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -367,6 +375,7 @@ footer {
         margin: 60px 150px;
     }
 
+
     .nav-list {
         position: absolute;
         top: 5vh;
@@ -401,6 +410,7 @@ footer {
         position: absolute;
         top: 2vh;
         right: 4vh;
+        display: block;
     }
 
     footer {
