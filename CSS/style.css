@@ -243,7 +243,6 @@ footer {
 @media screen and (max-width: 600px) {
 
     body {
-        width: auto;
         display: flex;
         flex-direction: column; 
         justify-content: center;
@@ -252,9 +251,9 @@ footer {
     header {
         height: 80vh;
         background-image: url(../images/mobile/image-hero.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        width: auto;
+        width: 100%;
         flex-direction: column; 
         justify-content: center;
     }
@@ -268,10 +267,6 @@ footer {
         top: 80px;
     }
 
-    main {
-        margin: 0 25px;
-    }
-
     .menu {
         display: none;
     }
@@ -281,6 +276,7 @@ footer {
         flex-direction: column; 
         justify-content: center;
         width: auto;
+        margin: auto;
     }
     
     .image-interactive {
@@ -291,7 +287,7 @@ footer {
         position: relative;
         top: 200px;
         left: auto;
-        margin: uto;
+        margin: auto;
     }
     
     .box-leader {
@@ -326,7 +322,6 @@ footer {
         display: none;
     }
 
-
     .box-images-mobile {
         display: flex;
         flex-direction: column; 
@@ -340,7 +335,6 @@ footer {
     .img-title {
         display: none;
     }
-
 
 
     .box-images-mobile img {
