@@ -11,7 +11,9 @@
 
 ## Descrição do Projeto 
 
-Landing page onde o usuário pode visitar catálogos sobre realidade virtual. 
+Landing page onde o usuário pode visitar catálogos sobre realidade virtual.
+
+URL: https://loopstudios-landing-page-main-neon.vercel.app/#
 
 ![image](https://user-images.githubusercontent.com/122060348/229753718-12caa67d-b364-4222-a67c-90b3795ca8d7.png)
 
