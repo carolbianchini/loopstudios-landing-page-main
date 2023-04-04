@@ -377,6 +377,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        z-index: 1;
         justify-content: space-evenly;
         transform: translateX(100%);
     }
@@ -387,7 +388,6 @@ footer {
 
     .nav-list li {
         margin-left: 0;
-        
     }
 
     .nav-list a {
